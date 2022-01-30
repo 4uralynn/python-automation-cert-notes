@@ -1,0 +1,1 @@
+4     0  548599  548592  20   0  13344  4904 -      S    pts/1      0:00 sudo openvpn --config /etc/openvpn/mullvad_current.conf --ca /etc/openvpn/mullvad_ca.crt --auth-user-pass /etc/openvpn/mullvad_userpass.txt
