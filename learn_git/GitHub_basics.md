@@ -33,7 +33,7 @@ type `git remote -v`. By default the name will be 'origin'.
 
 ```console
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git remote -v
 origin  https://github.com/4uralynn/health_checks.git (fetch)
 origin  https://github.com/4uralynn/health_checks.git (push)
@@ -45,7 +45,7 @@ To to see information about the 'origin' repository type `git remote show origin
 
 ```console
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git remote show origin
 Username for 'https://github.com': 4uralynn
 Password for 'https://4uralynn@github.com':
@@ -68,16 +68,16 @@ An **example of a push** to the repository:
 
 ```console
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git add comp_checks.py
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git add all_checks.py
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git add free_memory.py
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git commit
 [main bd8671a] Adding files for computer checks to the repository.
  3 files changed, 66 insertions(+)
@@ -85,7 +85,7 @@ An **example of a push** to the repository:
  create mode 100755 comp_checks.py
  create mode 100644 free_memory.py
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git push
 Username for 'https://github.com': 4uralynn
 Password for 'https://4uralynn@github.com':
@@ -99,7 +99,7 @@ Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/4uralynn/health_checks.git
    03e7342..bd8671a  main -> main
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git log
 commit bd8671adb0358720a06c6176b22b84373b06743c (HEAD -> main, origin/main, origin/HEAD)
 Author: 4ura <4uralynn@protonmail.com>
@@ -110,12 +110,12 @@ Date:   Sun Jan 30 18:45:48 2022 -0800
     These files are all_checks, comp_checks, and free_memory Python files
 
 commit 03e7342605863e38be083b58baab962e429bdc40
-Author: Laura Engram <lauracornwell@ieee.org>
+Author: Luser Engram <lusercornwell@ieee.org>
 Date:   Sun Jan 30 17:07:13 2022 -0800
 
     Initial commit
 
-┌──(aura㉿thehaven)-[~/Code/Python/learn_git/health_checks]
+┌──(user㉿linux)-[~/Code/Python/learn_git/health_checks]
 └─$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
