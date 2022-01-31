@@ -80,3 +80,11 @@ The line limits are especially important for using the command `git log`.
 Staying below the character limits will be sure the log is readable, since there is no line wrapping.
 
 ___ 
+
+## Other Basic Options
+
+Like the `-m` option, other options for **commit** allow us to process changes faster, or get more information.
+
+  + The `-a` option allows you to skip staging
+     - Example: `git commit -a -m "Call check_reboot from main, exit with 1 on error."`
+
