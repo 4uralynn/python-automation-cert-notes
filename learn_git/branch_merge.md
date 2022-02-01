@@ -223,7 +223,7 @@ ___
 
 **NOTE:**
 
-You can use the **git log** options `--graph` and `oneline`, to organize the history better for quick viewing. This is especially helpful with merge conflicts.
+You can use the **git log** options `--graph` and `--oneline`, to organize the history better for quick viewing. This is especially helpful with merge conflicts.
 
 *See the example below:*
 
