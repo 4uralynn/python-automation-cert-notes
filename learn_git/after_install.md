@@ -63,13 +63,13 @@ git status
 A good commit message:
 
   1. **Line 1:** less then 50 character, short description of what the changes are about
-    + skip a line
-  2. **Lines 2 - Last Line of message:** less  than 72 characters each, in neat paragraphs
-    + Provide a detailed explanation of what is going with the change
-    + Can reference bugs or issues fixed
-    + Can provide references or links to more information, when relevent
-  3. **Lines with leading '#':** Not apart of the message
-    + provided as a reminder of what we are about to commit
+      + skip a line
+  3. **Lines 2 - Last Line of message:** less  than 72 characters each, in neat paragraphs
+      + Provide a detailed explanation of what is going with the change
+      + Can reference bugs or issues fixed
+      + Can provide references or links to more information, when relevent
+  4. **Lines with leading '#':** Not apart of the message
+      + provided as a reminder of what we are about to commit
 
 
 ___
