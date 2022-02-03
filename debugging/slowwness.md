@@ -108,12 +108,12 @@ def function2(arg3, arg4)
         print("We have both {} and {}".format(arg3, arg4))
         return 0
 
-executor = furtures.ThreadPoolExecutor()
+executor = furtures.ProcessPoolExecutor()
 
 def main():
 	i = 1
         while i < 21:
-#instead of calling the function normally, input it and it's arguments into ThreadPoolExecutor().submit
+#instead of calling the function normally, input it and it's arguments into ProcessPoolExecutor().submit
 		executor.submit(function1, arg1, arg2)
 		i += 1
 #the executor runs the tasks in parallel, using threads.
