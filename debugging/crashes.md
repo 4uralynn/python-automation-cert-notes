@@ -16,15 +16,12 @@ could be causing the problem, so we first need to **reduce the scope** of the is
   1. Are you able to reproduce the crash on a different machine?
   - If not it is a problem with that specific machine, or installation.
   3. Do all instances of the specific command or function fail?
-    
-    - If not it could be an issue with specific configurations/specifications/data being input.
+  - If not it could be an issue with specific configurations/specifications/data being input.
   4. Are other applications on the system/OS causing a crash?
-    
-    - If not it could be an issue with the installation.
+  - If not it could be an issue with the installation.
   5. Try exchanging hardware parts, or putting the harddrive in a clean computer.
-    
-    - Try the **memtest86** tool, to test the health of RAM
-    - Check disks for bad sections
+  - Try the **memtest86** tool, to test the health of RAM
+  - Check disks for bad sections
   6. If the hardware seems ok, check drivers and OS. Perhaps clean-install the OS. 
 
 
