@@ -14,7 +14,7 @@ could be causing the problem, so we first need to **reduce the scope** of the is
 
 **Check the reliability** of the crash:
   1. Are you able to reproduce the crash on a different machine?
-    a. If not it is a problem with that specific machine, or installation.
+  - If not it is a problem with that specific machine, or installation.
   3. Do all instances of the specific command or function fail?
     
     - If not it could be an issue with specific configurations/specifications/data being input.
