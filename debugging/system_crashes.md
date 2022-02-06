@@ -56,7 +56,7 @@ When the issue is resolved, **a summary should be written**, including:
   + *What fix you implemented* to resolve the issue.
   + *Long term remediation*, so the problem doesn't happen again.
 
-## Postmordems
+## Postmortems
 
 Documents that *describe details of incidents to help us learn* from our mistakes are called
 **postmortems**.
