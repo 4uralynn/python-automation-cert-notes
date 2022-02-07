@@ -57,7 +57,8 @@ Once we see that a process is over-using memory, use a **memory profiler**. Simp
 complex scripts befor use. 
 
 The `memory_profiler` library can be **imported in Python** scripts to figure out where the
-memory is going. There are many other memory profilers in Python that can also be used.
+memory is going. There are many other memory profilers in Python that can also be used, 
+like the `guppy` library.
 
 
 ```python
